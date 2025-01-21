@@ -1,0 +1,21 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    color: cadetblue;
+    margin-bottom: 2rem;
+}
+
+body{
+    margin-left: 4rem;
+}
+
+.red{
+    color: red;
+}
+
+h2{
+    color: crimson;
+    margin-bottom: 0;
+}
