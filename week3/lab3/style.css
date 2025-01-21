@@ -45,7 +45,11 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vmin;
+}
+
+html,body{
+    height: 100%;
+    overflow: hidden;
 }
 
 a {
@@ -93,8 +97,9 @@ footer {
     color: whitesmoke;
     background-color: rgb(32, 32, 32);
     padding: 1rem;
-    padding-left: 10rem;
+    padding-left: 7rem;
     align-self: normal;
+    /* width: 100%; */
 }
 
 main {
