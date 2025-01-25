@@ -1,5 +1,5 @@
 * {
-    font-family: 'comic sans MS','Franklin Gothic Medium';
+    font-family: 'comic sans MS', 'Franklin Gothic Medium';
 }
 
 p {
@@ -11,13 +11,38 @@ li {
     font-size: larger;
 }
 
-header {
+.banner {
     display: flex;
     align-items: baseline;
     margin-left: 3rem;
     margin-left: 3rem;
     margin-top: 1rem;
 }
+
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4rem;
+}
+
+nav li{
+    list-style: none;
+}
+
+nav a {
+    color: rgb(43, 163, 243);
+    text-shadow: 0.5px 0.5px 1px black;
+
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+header{
+    margin-bottom: 5rem;
+}
+
 
 @font-face {
     font-family: SecretFont;
@@ -27,8 +52,8 @@ header {
 h1 {
     font-family: SecretFont;
     font-size: 4.5rem;
-    color: rgb(43, 163, 243);
     margin: 0;
+    color: rgb(43, 163, 243);
     text-shadow: 2.5px 1.5px 2px pink;
 
 }
@@ -47,9 +72,10 @@ body {
     align-items: center;
 }
 
-html,body{
+html,
+body {
     height: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 a {
@@ -99,7 +125,6 @@ footer {
     padding: 1rem;
     padding-left: 7rem;
     align-self: normal;
-    /* width: 100%; */
 }
 
 main {
