@@ -4,6 +4,9 @@ import dogs from './assets/dog.json'
 import Question from './Question';
 import { motion } from "motion/react";
 
+import winPic from "./assets/win.gif"
+import losePic from "./assets/lose.jpg"
+
 function Quiz() {
     // saved array of dog questions and answers, and pictures
     const [dogPool, setDogPool] = useState([])
@@ -149,10 +152,6 @@ function Quiz() {
 
         scoreRef.current.innerText = `Score: ${finalScore}/${dogPool.length}`
         scoreRef.current.classList.remove("hidden")
-
-        let winPic = "src\\assets\\win.gif"
-        let losePic = "src\\assets\\lose.jpg"
-
 
         let outcomeSpeech = document.querySelector("#outcome-speech")
         let outcomePic = document.querySelector("#outcome-img")
