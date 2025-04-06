@@ -1,0 +1,132 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #d4ebff;
+
+
+  font-size: x-large;
+  background-color: #292929;
+  background-image: url("data:image/svg+xml,%3Csvg width='30' height='30' viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M15 0C6.716 0 0 6.716 0 15c8.284 0 15-6.716 15-15zM0 15c0 8.284 6.716 15 15 15 0-8.284-6.716-15-15-15zm30 0c0-8.284-6.716-15-15-15 0 8.284 6.716 15 15 15zm0 0c0 8.284-6.716 15-15 15 0-8.284 6.716-15 15-15z' fill='%23fb4b4b' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+img {
+  transition: scale 1s ease-in-out;
+
+}
+
+img:hover {
+  scale: 1.1;
+}
+
+input,
+label {
+  cursor: pointer;
+}
+
+html,
+body {
+  margin: 0;
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+
+form {
+  margin-right: 5rem;
+  margin-left: 5rem;
+  margin-top: 10rem;
+}
+
+li {
+  list-style: none;
+}
+
+li:hover {
+  background-color: #3d3d3d;
+}
+
+
+main {
+  position: relative;
+  overflow: hidden;
+  flex-grow: 1;
+}
+
+
+/* CRT EFFECT */
+main::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+  z-index: 2;
+  background-size: 100% 4px, 3px 100%;
+  pointer-events: none;
+
+}
+
+footer {
+  padding: 1rem;
+  font-size: large;
+}
+
+.rong {
+  background: hsla(0, 100%, 50%, 0.336) !important;
+}
+
+.right {
+  background-color: rgba(148, 245, 4, 0.336) !important;
+}
+
+.question {
+  transition: background-color 1s;
+  font-size: x-large;
+  text-align: left;
+
+  margin: 3rem;
+  background-color: rgba(255, 255, 255, 0.11);
+  padding: 2rem;
+
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+}
+
+.options-wrapper {
+  margin-top: 1rem;
+}
+
+.quiz-box {
+  margin: 5rem;
+  padding-top: 1rem;
+}
+
+
+.hidden {
+  visibility: hidden;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+}
+
+#intro-box {
+  position: absolute;
+
+  /* centers shit */
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+
+}
