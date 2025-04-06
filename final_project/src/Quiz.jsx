@@ -175,7 +175,7 @@ function Quiz() {
 
             <strong className='hidden' ref={scoreRef}>Score</strong>
             <p id='outcome-speech'></p>
-            <img width={700} id='outcome-img' src="src\assets\win.gif" alt="" />
+            <img width={700} id='outcome-img' src="" alt="" />
 
             <form action="" onSubmit={handleSubmit}>
 
