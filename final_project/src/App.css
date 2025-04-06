@@ -47,7 +47,7 @@
   background-position: 0 0;
   background-position-x: 0px;
   background-position-y: 0px;
-  background-image: url("assets/static.png");
+  background-image: url("./assets/static.png");
   scale: 2;
 }
 
